@@ -4,14 +4,14 @@ import { Button } from './Button';
 const currentYear = new Date().getFullYear();
 
 const socials = [
-  { link: 'https://x.com/gdglagos', title: 'twitter' },
+  { link: '#', title: 'twitter' },
   {
-    link: 'https://m.facebook.com/100075612535619',
+    link: '#',
     title: 'facebook',
   },
   { link: 'https://www.instagram.com/freshmensummit?igsh=MWMwZ2oyZ2w5OGZkMA==', title: 'instagram' },
-  { link: 'https://www.linkedin.com/company/gdg-lagos', title: 'linkedin' },
-  { link: 'https://www.youtube.com/@GDGLagos', title: 'youtube' },
+  { link: '#', title: 'linkedin' },
+  { link: '#', title: 'youtube' },
 ];
 
 const footerLinks = [
@@ -20,7 +20,7 @@ const footerLinks = [
     title: 'Privacy Policy',
   },
   {
-    link: 'mailto:team@gdglagos.com',
+    link: 'mailto:team@ffs.com',
     title: 'Contact Us',
   },
   {

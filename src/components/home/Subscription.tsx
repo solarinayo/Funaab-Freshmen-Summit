@@ -96,7 +96,7 @@ export const Subscription = ({ subscriptionRef }: { subscriptionRef: LegacyRef<H
             <div className='event-gallery-container' ref={eventGgallerycontainerRef}>
               <div className='event-img-four'>
                 <Image
-                  src='/images/webp/2023-event-img-four.webp'
+                  src='/images/webp/s2.webp'
                   width='280'
                   height='300'
                   alt='Event Image - Woman giving speech'
@@ -104,7 +104,7 @@ export const Subscription = ({ subscriptionRef }: { subscriptionRef: LegacyRef<H
               </div>
               <div className='event-img-three'>
                 <Image
-                  src='/images/webp/2023-event-img-three.webp'
+                  src='/images/webp/s3.webp'
                   width='280'
                   height='300'
                   alt='Event Image - Man addressing question'
@@ -112,13 +112,13 @@ export const Subscription = ({ subscriptionRef }: { subscriptionRef: LegacyRef<H
               </div>
               <div className='event-img-two'>
                 <Image
-                  src='/images/webp/2023-event-img-two.webp'
-                  width='280'
+                  src='/images/webp/s4.webp'
+                  width='580'
                   height='300'
                   alt='Event Image - Man asking question'
                 />
               </div>
-              <div className='event-img-one'>
+              {/* <div className='event-img-one'>
                 <Image
                   src='/images/webp/2023-event-img-one.webp'
                   width='280'
@@ -126,6 +126,8 @@ export const Subscription = ({ subscriptionRef }: { subscriptionRef: LegacyRef<H
                   alt='Event Image - Group picture'
                 />
               </div>
+
+              */}
             </div>
           </div>
         </div>
