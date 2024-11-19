@@ -14,24 +14,6 @@ const socials = [
   { link: '#', title: 'youtube' },
 ];
 
-const footerLinks = [
-  {
-    link: 'https://policies.google.com/privacy',
-    title: 'Privacy Policy',
-  },
-  {
-    link: 'mailto:team@ffs.com',
-    title: 'Contact Us',
-  },
-  {
-    link: 'https://developers.google.com/community-guidelines',
-    title: 'Community Guidelines',
-  },
-  {
-    link: 'https://gdg.community.dev/gdg-lagos/',
-    title: 'Join the Community',
-  },
-];
 
 export const Footer = () => {
   return (
@@ -89,35 +71,7 @@ export const Footer = () => {
               <Button label='Apply To Speak' size='lg' animate={false} />
             </a>
 
-            <div className='footer-links'>
-              <ul>
-                {footerLinks.slice(0, 2).map(({ link, title }, key) => (
-                  <li className='text-sm' key={key}>
-                    <a href={link} target='_blank' rel='noopener noreferrer' aria-label={title}>
-                      {title}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-              <ul>
-                {footerLinks.slice(2, 4).map(({ link, title }, key) => (
-                  <li className='text-sm' key={key}>
-                    <a href={link} target='_blank' rel='noopener noreferrer' aria-label={title}>
-                      {title}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-              <ul>
-                {footerLinks.slice(4, 6).map(({ link, title }, key) => (
-                  <li className='text-sm' key={key}>
-                    <a href={link} target='_blank' rel='noopener noreferrer' aria-label={title}>
-                      {title}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
+           
           </div>
         </div>
         <p className='footer-copyright'>© {currentYear} Funaab Freshmen Summit. All Rights Reserved.</p>
