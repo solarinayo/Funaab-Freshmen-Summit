@@ -1,0 +1,106 @@
+.timer-placeholder {
+  height: 20rem;
+
+  @include media('<=tablet') {
+    height: 12.5rem;
+  }
+
+  @include media('<=phone') {
+    height: 8.5rem;
+  }
+}
+
+.countdown-wrapper {
+  background-color: var(--dv-black);
+  border-radius: 40px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  align-items: center;
+  margin-top: 4rem;
+
+  @include media('<=tablet') {
+    border-radius: 20px;
+  }
+
+  @include media('<=phone') {
+    border-radius: 20px;
+    gap: 0.2rem;
+    padding: 3px;
+  }
+
+  .time-element {
+    min-width: 7rem;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+    .hidden-el {
+      position: absolute;
+      transform: translateY(-100%);
+      top: 0;
+      text-align: center;
+    }
+
+    .visible-el {
+    }
+  }
+
+  .time-element-container {
+    background-color: var(--dv-light-yellow);
+    border-radius: 32px;
+    width: 25%;
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+
+    p {
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+
+    @include media('<=tablet') {
+      height: 120px;
+      border-radius: 26px;
+    }
+
+    @include media('<tablet') {
+      min-width: 3rem;
+
+      h1 {
+        font-size: 36px;
+        font-weight: 500;
+      }
+
+      p {
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+
+    @include media('<=phone') {
+      height: 68px;
+      border-radius: 20px;
+      gap: 0.1rem;
+
+      .time-element {
+        min-width: 3rem;
+      }
+
+      h1 {
+        font-size: 28px;
+        font-weight: 500;
+      }
+
+      p {
+        font-size: 10px;
+        font-weight: 400;
+      }
+    }
+  }
+}

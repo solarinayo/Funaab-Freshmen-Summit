@@ -1,0 +1,21 @@
+@mixin buttonTransition() {
+  transition: all 0.7s cubic-bezier(0.2, 1, 0.22, 1);
+}
+
+@mixin centerCoverBg() {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@mixin typography($font-size, $font-weight: null, $line-height: null) {
+  font-size: $font-size;
+
+  @if $font-weight !=null {
+    font-weight: $font-weight;
+  }
+
+  @if $line-height !=null {
+    line-height: $line-height;
+  }
+}
