@@ -38,7 +38,7 @@ export const BiggestTechFestival = () => {
         <div className='text-content'>
           <div className='overflow-hidden'>
             <h2 id='biggestTechHeader' className='text-5xl' ref={biggestTechHeaderRef}>
-              Learn and Connect at Funaab Freshmen Summit &apos;24
+              Learn and Connect at Funaab Freshmen Summit &apos;25 ✨
             </h2>
           </div>
           <p className='text-xl' ref={biggestTechSubTextRef}>

@@ -58,7 +58,7 @@ export const HomeBanner = (/*{ ScrollToSubscription }: { ScrollToSubscription: (
           
           <div className='overflow-hidden'>
             <h2 className='text-5xl' id='bannerHeaderText' ref={bannerHeaderTextRef}>
-              The Countdown Begins
+              The Countdown Begins⏰
             </h2>
           </div>
 

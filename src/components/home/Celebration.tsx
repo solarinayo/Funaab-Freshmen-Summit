@@ -93,12 +93,12 @@ export const Celebration = () => {
       <div className='container celebration-content'>
         <div className='overflow-hidden'>
           <h2 id='celebrationHeading' className='text-5xl text-center' ref={headerTextRef}>
-            You Don&apos;t Want to Miss Out on 3rd of Funaab Freshmen Summit!
+         I go lie for you! 😎🎉
           </h2>
         </div>
 
         <p className='text-xl' ref={subTextRef}>
-          We&apos;re celebrating 3 years of Funaab Freshmen Summit. Get your Early Bird tickets now.
+        The 3rd edition of Funaab Freshmen Summit dey happen! 🔥, No dulling, join us for the ultimate summit! in Sun city🌞
         </p>
         <a href={'#'}>
           <Button label='Subscribe to Waitlist' size='lg' />

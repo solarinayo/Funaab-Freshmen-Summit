@@ -39,7 +39,7 @@ export const Highlights = () => {
         </p> */}
         <div className='overflow-hidden'>
           <h2 className='text-5xl' id='highlightsHeader' ref={highlightsHeaderRef}>
-            Recap of Funaab Freshmen Summit &apos;23
+            Recap of Funaab Freshmen Summit &apos;24  🎉
           </h2>
         </div>
 
