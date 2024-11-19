@@ -10,7 +10,7 @@ import {
   highlightsVideoBgAnimation,
 } from '@/utils/animations/pages/homeAnimations';
 
-export const highlightsVideoUrl = 'https://www.youtube.com/embed/_estn5TK3tQ';
+export const highlightsVideoUrl = '#';
 
 export const Highlights = () => {
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
@@ -75,7 +75,7 @@ export const Highlights = () => {
         <div className='video-iframe-wrapper'>
           <iframe
             src={`${highlightsVideoUrl}?autoplay=1`}
-            title='2023 DevFest Highlights Video'
+            title='FFS 24'
             frameBorder='0'
             allow='autoplay; encrypted-media'
             allowFullScreen

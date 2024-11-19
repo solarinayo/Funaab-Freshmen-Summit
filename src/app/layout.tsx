@@ -8,10 +8,10 @@ import '../styles/index.scss';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'DevFest 2024 | Coming Soon',
-  description: 'The Biggest Tech Festival in Nigeria',
-  keywords: 'devfest, devfest lagos, coming soon, date, venue',
-  metadataBase: new URL('https://devfest-coming-soon.vercel.app/'), // synonymous to the base URL
+  title: 'Funaab Freshmen Summit | Coming Soon',
+  description: 'The Biggest Summit Festival in Funaab',
+  keywords: 'Funaab, FFS, coming soon, date, venue',
+  metadataBase: new URL('https://ffs-coming-soon.vercel.app/'), // synonymous to the base URL
 };
 
 const GeneralSans = localFont({
