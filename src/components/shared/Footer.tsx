@@ -25,16 +25,12 @@ export const Footer = () => {
               <p>About the event</p>
             </div>
             <p className='text-base'>
-              Funaab Freshmen Summit is an annual conference for tech enthusiasts from novices to industry
-              leaders organized by the Google Developer Group Lagos (GDG Lagos). The event features
-              sessions on various topics, including Mental Health, Mobile Development, Design, Web
-              Development, Cloud Computing, DevOps, Machine Learning, AR/VR, and more.{' '}
-            </p>
-            <p className='text-base'>
-              Funaab Freshmen Summit will take place this year on November 15th and 16th, 2024, at the
-              Landmark Events Center in Lagos. Sessions will run simultaneously so be sure to
-              register for those that match your interests or areas you want to learn about.
-            </p>
+  The FUNAAB Freshmen Summit is an annual gathering designed to welcome and inspire new students at the Federal University of Agriculture, Abeokuta (FUNAAB). It provides a platform for freshmen to gain valuable insights into university life, career development, and technology trends while connecting with fellow students, mentors, and industry leaders.
+</p>
+<p className='text-base'>
+  This year's summit will take place on November 15th and 16th, 2024, at the FUNAAB Multipurpose Hall. The event will feature engaging sessions on personal development, academic excellence, mental health, innovation, and leadership. Be sure to register for sessions that align with your goals and interests to kickstart your journey at FUNAAB with purpose and inspiration.
+</p>
+
             <div className='socials'>
               <p>Follow us on:</p>
               <div>
