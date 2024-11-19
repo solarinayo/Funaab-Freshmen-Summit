@@ -9,7 +9,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Funaab Freshmen Summit | Coming Soon',
-  description: 'The Biggest Summit Festival in Funaab',
+  description: 'The Biggest Summit in Funaab',
   keywords: 'Funaab, FFS, coming soon, date, venue',
   metadataBase: new URL('https://ffs-coming-soon.vercel.app/'), // synonymous to the base URL
 };
