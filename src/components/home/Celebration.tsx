@@ -28,23 +28,23 @@ const TopicPill = ({ topic }: { topic: { title: string; bg: string } }) => {
 
 const topics = [
   {
-    title: 'Funaab ☁️',
+    title: 'Funaab ☀️',
     bg: '#FFFAEB',
   },
   {
-    title: 'FPY 💎',
+    title: 'FPY 🚜',
     bg: '#F8D8D8',
   },
   {
-    title: 'JAO3 👾',
+    title: 'JAO3 🏪',
     bg: '#D3F1F8',
   },
   {
-    title: 'SUB 🦾',
+    title: 'SUB 👨🏿‍⚖️',
     bg: '#CCF6C5',
   },
   {
-    title: '  Motion Ground 📱',
+    title: '  Motion Ground 👨🏿‍⚖️',
     bg: '#F8D8D8',
   },
   {
@@ -56,15 +56,15 @@ const topics = [
     bg: '#FFFAEB',
   },
   {
-    title: '⁠Goody Media 📊',
+    title: '⁠Goody Media 📷',
     bg: '#CCF6C5',
   },
   {
-    title: 'Do not cross lawn 👨‍💻',
+    title: 'Do not cross lawn 🎓',
     bg: '#72c876',
   },
   {
-    title: '⁠Oluwo 📶',
+    title: '⁠Oluwo 🚀',
     bg: '#D3F1F8',
   },
 

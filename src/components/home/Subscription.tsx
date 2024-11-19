@@ -67,9 +67,10 @@ export const Subscription = ({ subscriptionRef }: { subscriptionRef: LegacyRef<H
             <div className='subscription-form-container'>
               <p className='text-xl intro-text'>Join the community</p>
               <div className='overflow-hidden'>
-                <h2 className='text-5xl' ref={textHeadingRef}>
-                  Don&apos;t loose guard. Get notified first!
-                </h2>
+              <h5 className='text-5xl' ref={textHeadingRef}>
+  PaPaPaSuPe!😁 <span className="block">Don&apos;t lose guard. Get notified first!</span>
+</h5>
+
               </div>
 
               <div ref={subsciptionFormRef}>
