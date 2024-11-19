@@ -55,6 +55,7 @@ export const HomeBanner = (/*{ ScrollToSubscription }: { ScrollToSubscription: (
           <div className='asterisk-container'>
             <Image src='/images/svg/asterik.svg' alt='Asterisk' height={40} width={40} />
           </div>
+          
           <div className='overflow-hidden'>
             <h2 className='text-5xl' id='bannerHeaderText' ref={bannerHeaderTextRef}>
               The Countdown Begins

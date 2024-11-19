@@ -78,10 +78,10 @@ export const Footer = () => {
           <div>
             <div className='footer-logo'>
               <Image
-                src={'/images/svg/devfest-logo.svg'}
+                src={'/images/svg/ffs2.svg'}
                 alt='Funaab Freshmen Summit Logo'
-                width={300}
-                height={94}
+                width={100}
+                height={54}
                 style={{ width: '100%', height: 'auto' }}
               />
             </div>

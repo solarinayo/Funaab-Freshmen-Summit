@@ -28,48 +28,48 @@ const TopicPill = ({ topic }: { topic: { title: string; bg: string } }) => {
 
 const topics = [
   {
-    title: 'Cloud Computing ☁️',
+    title: 'Funaab ☁️',
     bg: '#FFFAEB',
   },
   {
-    title: '⁠⁠Blockchain 💎',
+    title: 'FPY 💎',
     bg: '#F8D8D8',
   },
   {
-    title: '⁠⁠Cybersecurity 👾',
+    title: 'JAO3 👾',
     bg: '#D3F1F8',
   },
   {
-    title: 'AI & ML 🦾',
+    title: 'SUB 🦾',
     bg: '#CCF6C5',
   },
   {
-    title: 'Android Development 📱',
+    title: '  Motion Ground 📱',
     bg: '#F8D8D8',
   },
   {
-    title: 'Web Development 🌐',
+    title: 'Mancot 🌐',
     bg: '#D3F1F8',
   },
   {
-    title: 'UX/UI Design 🤩',
+    title: '1K WHAT? 1000 CAP',
     bg: '#FFFAEB',
   },
   {
-    title: '⁠⁠Data Science 📊',
+    title: '⁠Goody Media 📊',
     bg: '#CCF6C5',
   },
   {
-    title: 'DevOps 👨‍💻',
+    title: 'Do not cross lawn 👨‍💻',
     bg: '#FFFFFF',
   },
   {
-    title: '⁠⁠IoT (Internet of Things) 📶',
+    title: '⁠Oluwo 📶',
     bg: '#D3F1F8',
   },
 
   {
-    title: '⁠⁠Product Management 🫂',
+    title: '⁠⁠Iyat 🫂',
     bg: '#CCF6C5',
   },
 ];
