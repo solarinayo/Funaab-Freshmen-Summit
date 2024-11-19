@@ -100,7 +100,7 @@ export const Celebration = () => {
         <p className='text-xl' ref={subTextRef}>
         The 3rd edition of Funaab Freshmen Summit dey happen! 🔥, No dulling, join us for the ultimate summit! in Sun city🌞
         </p>
-        <a href={'#'}>
+        <a href={'https://chat.whatsapp.com/Kjmsk4RH3Jt1ySdSLsA9NP'}>
           <Button label='Subscribe to Waitlist' size='lg' />
         </a>
       </div>

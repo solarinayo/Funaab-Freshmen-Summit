@@ -68,7 +68,7 @@ export const HomeBanner = (/*{ ScrollToSubscription }: { ScrollToSubscription: (
           </p>
         </div>
         <div className='text-center'>
-          <a href={'#'}>
+          <a href={'https://chat.whatsapp.com/Kjmsk4RH3Jt1ySdSLsA9NP'}>
             <Button label='Subscribe to Waitlist' size='lg' />
           </a>
         </div>
