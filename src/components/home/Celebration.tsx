@@ -61,7 +61,7 @@ const topics = [
   },
   {
     title: 'Do not cross lawn 👨‍💻',
-    bg: '#FFFFFF',
+    bg: '#72c876',
   },
   {
     title: '⁠Oluwo 📶',

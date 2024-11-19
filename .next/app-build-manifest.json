@@ -10,12 +10,6 @@
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
-    ],
-    "/apply-to-speak/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/apply-to-speak/page.css",
-      "static/chunks/app/apply-to-speak/page.js"
     ]
   }
 }
