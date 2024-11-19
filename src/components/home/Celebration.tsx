@@ -93,7 +93,7 @@ export const Celebration = () => {
       <div className='container celebration-content'>
         <div className='overflow-hidden'>
           <h2 id='celebrationHeading' className='text-5xl text-center' ref={headerTextRef}>
-         I go lie for you! 😎🎉
+         I go lie for you?! 😎🎉
           </h2>
         </div>
 
