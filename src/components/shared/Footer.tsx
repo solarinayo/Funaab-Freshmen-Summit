@@ -24,12 +24,14 @@ export const Footer = () => {
             <div className='about-pill text-lg'>
               <p>About the event</p>
             </div>
-            <p className='text-base'>
+            <p className='text-base' style={{ color: 'white' }}>
   The FUNAAB Freshmen Summit is an annual gathering designed to welcome and inspire new students at the Federal University of Agriculture, Abeokuta (FUNAAB). It provides a platform for freshmen to gain valuable insights into university life, career development, and technology trends while connecting with fellow students, mentors, and industry leaders.
 </p>
-<p className='text-base'>
+<p className='text-base' style={{ color: 'white' }}>
   This year's summit will take place on November 15th and 16th, 2024, at the FUNAAB Multipurpose Hall. The event will feature engaging sessions on personal development, academic excellence, mental health, innovation, and leadership. Be sure to register for sessions that align with your goals and interests to kickstart your journey at FUNAAB with purpose and inspiration.
 </p>
+
+
 
             <div className='socials'>
               <p>Follow us on:</p>
@@ -63,7 +65,7 @@ export const Footer = () => {
                 style={{ width: '100%', height: 'auto' }}
               />
             </div>
-            <a href={'/apply-to-speak/'}>
+            <a href={'#'}>
               <Button label='Apply To Speak' size='lg' animate={false} />
             </a>
 

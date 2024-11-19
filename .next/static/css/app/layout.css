@@ -144,6 +144,10 @@ a {
   text-decoration: none;
 }
 
+.textwhite {
+  color: white;
+}
+
 .text-sm {
   font-size: 14px;
   line-height: 24px;
@@ -559,6 +563,10 @@ a {
   .footer-wrapper {
     padding: 3rem 0;
   }
+}
+
+.textwhite {
+  color: white;
 }
 
 .textfield-wrapper .textfield {
