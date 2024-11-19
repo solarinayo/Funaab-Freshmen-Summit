@@ -31,6 +31,7 @@ export const BiggestTechFestival = () => {
     };
   }, []);
 
+  
   return (
     <section className='big-tech-festival-wrapper' aria-labelledby='festival-heading'>
       <div className='container'>
@@ -41,17 +42,21 @@ export const BiggestTechFestival = () => {
             </h2>
           </div>
           <p className='text-xl' ref={biggestTechSubTextRef}>
-            Create memories by enjoying an unparalleled experience for developers, tech enthusiasts,
-            and innovators.
+          Create lasting memories 😊 as you embark on an exciting journey designed for freshmen, filled with unique experiences, inspiring sessions, and opportunities to connect with peers, mentors, and innovators.
           </p>
         </div>
       </div>
+
+      
       <div
         className='image-gallery'
         aria-label='Scrolling images of past events'
         ref={imageGalleryContainerRef}
       >
 
+<div className='asterisk-container'>
+            <Image src='/images/svg/green_arrow.svg' alt='Asterisk' height={40} width={40} />
+          </div>
 <Marquee speed={20} aria-label='Scrolling images of past events'>
           {eventImages.map((image, key) => (
             <div className='single-img-container' key={key}>
@@ -73,6 +78,9 @@ export const BiggestTechFestival = () => {
   
 
       </div>
+
+
+      
     </section>
   );
 };
