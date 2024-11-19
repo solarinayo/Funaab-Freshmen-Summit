@@ -40,8 +40,8 @@ export const HomeBanner = (/*{ ScrollToSubscription }: { ScrollToSubscription: (
             <Image
               src='/images/svg/ffs.svg'
               alt='Funaab Freshmen Summit Logo'
-              height={50}
-              width={167}
+              height={60}
+              width={280}
             />
           </div>
           <a href={'/apply-to-speak/'}>

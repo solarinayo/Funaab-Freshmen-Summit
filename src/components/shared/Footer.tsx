@@ -9,7 +9,7 @@ const socials = [
     link: 'https://m.facebook.com/100075612535619',
     title: 'facebook',
   },
-  { link: 'https://www.instagram.com/gdglagos', title: 'instagram' },
+  { link: 'https://www.instagram.com/freshmensummit?igsh=MWMwZ2oyZ2w5OGZkMA==', title: 'instagram' },
   { link: 'https://www.linkedin.com/company/gdg-lagos', title: 'linkedin' },
   { link: 'https://www.youtube.com/@GDGLagos', title: 'youtube' },
 ];
@@ -43,13 +43,13 @@ export const Footer = () => {
               <p>About the event</p>
             </div>
             <p className='text-base'>
-              DevFest Lagos is an annual conference for tech enthusiasts from novices to industry
+              Funaab Freshmen Summit is an annual conference for tech enthusiasts from novices to industry
               leaders organized by the Google Developer Group Lagos (GDG Lagos). The event features
               sessions on various topics, including Mental Health, Mobile Development, Design, Web
               Development, Cloud Computing, DevOps, Machine Learning, AR/VR, and more.{' '}
             </p>
             <p className='text-base'>
-              DevFest Lagos will take place this year on November 15th and 16th, 2024, at the
+              Funaab Freshmen Summit will take place this year on November 15th and 16th, 2024, at the
               Landmark Events Center in Lagos. Sessions will run simultaneously so be sure to
               register for those that match your interests or areas you want to learn about.
             </p>
@@ -79,7 +79,7 @@ export const Footer = () => {
             <div className='footer-logo'>
               <Image
                 src={'/images/svg/devfest-logo.svg'}
-                alt='DevFest Lagos Logo'
+                alt='Funaab Freshmen Summit Logo'
                 width={300}
                 height={94}
                 style={{ width: '100%', height: 'auto' }}
@@ -120,7 +120,7 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <p className='footer-copyright'>© {currentYear} Devfest Lagos. All Rights Reserved.</p>
+        <p className='footer-copyright'>© {currentYear} Funaab Freshmen Summit. All Rights Reserved.</p>
       </div>
     </footer>
   );
