@@ -4,16 +4,16 @@ import { gsap } from 'gsap';
 import React, { useState, useEffect, useMemo, useRef, RefObject } from 'react';
 
 const isValidDateFormat = (dateString: string): boolean => {
-  const regex = /^\d{2}\/\d{2}\/\d{4} \d{2}:\d{2}:\d{2}$/;
+  const regex = /^\d{1,2}\/\d{1,2}\/\d{4} \d{2}:\d{2}:\d{2}$/; // Updated to allow single-digit day/month
   return regex.test(dateString);
 };
 
 const parseDateString = (dateString: string): Date => {
   if (!isValidDateFormat(dateString)) {
     console.error(
-      'Invalid date format. Please use "DD/MM/YYYY HH:MM:SS". e.g: 29/10/2024 00:35:00',
+      'Invalid date format. Please use "DD/MM/YYYY HH:MM:SS". Example: 29/10/2024 00:35:00',
     );
-    dateString = '00/00/0000 00:00:00';
+    return new Date('Invalid Date');
   }
 
   const [datePart, timePart] = dateString.split(' ');
@@ -22,7 +22,7 @@ const parseDateString = (dateString: string): Date => {
 
   return new Date(
     parseInt(year, 10),
-    parseInt(month, 10) - 1,
+    parseInt(month, 10) - 1, // Months are 0-indexed in JavaScript
     parseInt(day, 10),
     parseInt(hours, 10),
     parseInt(minutes, 10),
@@ -95,8 +95,6 @@ export const CountdownTimer = () => {
     return () => clearInterval(timer);
   }, [eventDate]);
 
-  const { days, hours, minutes, seconds } = timeLeft;
-
   const moveTimeElement = async ({
     activeElRef,
     hiddenElRef,
@@ -111,52 +109,34 @@ export const CountdownTimer = () => {
     const hiddenEl = hiddenElRef.current;
 
     if (activeEl && hiddenEl) {
-      //Move visible element to the bottom
-      tl1.to(activeEl, { y: '100%' });
+      tl1.to(activeEl, { y: '100%' }); // Move visible element to the bottom
+      tl2.to(hiddenEl, { y: '0%' });  // Move hidden element to main view
 
-      //Move visible element to the main view
-      tl2.to(hiddenEl, { y: '0%' });
-
-      //Swap content
-      hiddenEl.innerText = activeEl.innerText;
-
-      //Reset values
-      tl1.set(activeEl, { y: '0%' });
+      hiddenEl.innerText = activeEl.innerText; // Swap content
+      tl1.set(activeEl, { y: '0%' }); // Reset values
       tl2.set(hiddenEl, { y: '-100%' });
     }
-
-    const handleVisibilityChange = () => {
-      if (document.visibilityState === 'hidden') {
-        tl1.pause();
-        tl2.pause();
-      } else {
-        tl1.play();
-        tl2.play();
-      }
-    };
-
-    return () => {
-      document.removeEventListener('visibilitychange', handleVisibilityChange);
-    };
   };
 
   useEffect(() => {
     moveTimeElement({ activeElRef: activeSecondsRef, hiddenElRef: hiddenSecondsRef });
-  }, [timeLeft.seconds, isMounted]);
+  }, [timeLeft.seconds]);
 
   useEffect(() => {
     moveTimeElement({ activeElRef: activeMinuteRef, hiddenElRef: hiddenMinuteRef });
-  }, [timeLeft.minutes, isMounted]);
+  }, [timeLeft.minutes]);
 
   useEffect(() => {
     moveTimeElement({ activeElRef: activeHoursRef, hiddenElRef: hiddenHoursRef });
-  }, [timeLeft.hours, isMounted]);
+  }, [timeLeft.hours]);
 
   useEffect(() => {
     moveTimeElement({ activeElRef: activeDaysRef, hiddenElRef: hiddenDaysRef });
-  }, [timeLeft.days, isMounted]);
+  }, [timeLeft.days]);
 
   if (!isMounted) return <div className='timer-placeholder'></div>;
+
+  const { days, hours, minutes, seconds } = timeLeft;
 
   return (
     <div className='countdown-wrapper' ref={containerRef}>
