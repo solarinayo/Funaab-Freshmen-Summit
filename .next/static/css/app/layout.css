@@ -649,7 +649,7 @@ a {
   /* END OF SUBSCRIPTION STYLES */
 }
 .home .home-banner {
-  background-color: var(--dv-light-yellow);
+  background-color: #ccffcf;
   padding-top: 3rem;
 }
 .home .home-banner .notify-block {

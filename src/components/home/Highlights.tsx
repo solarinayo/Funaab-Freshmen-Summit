@@ -39,14 +39,14 @@ export const Highlights = () => {
         </p> */}
         <div className='overflow-hidden'>
           <h2 className='text-5xl' id='highlightsHeader' ref={highlightsHeaderRef}>
-            Recap of DevFest Lagos &apos;23
+            Recap of Funaab Freshmen Summit &apos;23
           </h2>
         </div>
 
         <div
           className='highlights-img'
           role='img'
-          aria-label="DevFest Lagos '23 Highlight Video"
+          aria-label="Funaab Freshmen Summit '23 Highlight Video"
           ref={highlightsVideoBgRef}
         >
           <div

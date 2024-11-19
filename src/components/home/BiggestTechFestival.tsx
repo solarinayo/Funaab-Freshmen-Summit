@@ -9,9 +9,9 @@ import {
 } from '@/utils/animations/pages/homeAnimations';
 
 const eventImages = [
-  'tech-festival-img-one.webp',
-  'tech-festival-img-two.webp',
-  'tech-festival-img-three.webp',
+  '1.webp',
+  '2.webp',
+  '3.webp',
   'tech-festival-img-four.webp',
 ];
 
@@ -37,7 +37,7 @@ export const BiggestTechFestival = () => {
         <div className='text-content'>
           <div className='overflow-hidden'>
             <h2 id='biggestTechHeader' className='text-5xl' ref={biggestTechHeaderRef}>
-              Learn and Connect at DevFest Lagos &apos;24
+              Learn and Connect at Funaab Freshmen Summit &apos;24
             </h2>
           </div>
           <p className='text-xl' ref={biggestTechSubTextRef}>
@@ -51,7 +51,8 @@ export const BiggestTechFestival = () => {
         aria-label='Scrolling images of past events'
         ref={imageGalleryContainerRef}
       >
-        <Marquee speed={20} aria-label='Scrolling images of past events'>
+
+<Marquee speed={20} aria-label='Scrolling images of past events'>
           {eventImages.map((image, key) => (
             <div className='single-img-container' key={key}>
               <Image
@@ -59,12 +60,18 @@ export const BiggestTechFestival = () => {
                 alt={'Festival Image'}
                 height={300}
                 width={320}
-                style={{ width: '100%', height: '100%' }}
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  borderRadius: '10px', // Adds border radius to the image
+                }}
                 // layout='responsive'
               />
             </div>
           ))}
         </Marquee>
+  
+
       </div>
     </section>
   );

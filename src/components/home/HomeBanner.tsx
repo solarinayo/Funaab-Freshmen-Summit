@@ -38,8 +38,8 @@ export const HomeBanner = (/*{ ScrollToSubscription }: { ScrollToSubscription: (
         <div className='notify-block'>
           <div ref={logoRef}>
             <Image
-              src='/images/svg/devfest-logo.svg'
-              alt='DevFest Lagos Logo'
+              src='/images/svg/ffs.svg'
+              alt='Funaab Freshmen Summit Logo'
               height={50}
               width={167}
             />
@@ -62,13 +62,13 @@ export const HomeBanner = (/*{ ScrollToSubscription }: { ScrollToSubscription: (
           </div>
 
           <p className='text-xl' ref={bannerSubTextRef}>
-            We&apos;re baaaack!!! DevFest Lagos 2024 is coming. It&apos;s bigger and better, and we
+            We&apos;re baaaack!!! Funaab Freshmen Summit 2025 is coming. It&apos;s bigger and better, and we
             know it will be unforgettable. Are you ready?
           </p>
         </div>
         <div className='text-center'>
           <a href={'https://tickets.devfestlagos.com/'}>
-            <Button label='Get Early Bird Tickets' size='lg' />
+            <Button label='Subscribe to Waitlist' size='lg' />
           </a>
         </div>
         {process.env.NEXT_PUBLIC_EVENT_TIME && <CountdownTimer />}
