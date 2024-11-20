@@ -10,8 +10,7 @@ const socials = [
     title: 'facebook',
   },
   { link: 'https://www.instagram.com/freshmensummit?igsh=MWMwZ2oyZ2w5OGZkMA==', title: 'instagram' },
-  { link: '#', title: 'linkedin' },
-  { link: '#', title: 'youtube' },
+
 ];
 
 
