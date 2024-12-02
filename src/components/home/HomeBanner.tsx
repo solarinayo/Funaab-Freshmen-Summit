@@ -63,7 +63,7 @@ export const HomeBanner = (/*{ ScrollToSubscription }: { ScrollToSubscription: (
           </div>
 
           <p className='text-xl' ref={bannerSubTextRef}>
-            We&apos;re baaaack!!!👋 Funaab Freshmen Summit 2025 is coming. It&apos;s bigger and better, and we
+            We&apos;re baaaack!!👋 Funaab Freshmen Summit 2025 is coming. It&apos;s bigger and better, and we
             know it will be unforgettable. Are you ready?
           </p>
         </div>
